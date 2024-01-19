@@ -1,10 +1,10 @@
 import { component$, useSignal, useTask$ } from "@builder.io/qwik";
 
-export default component$(() => {
-    if(import.meta.env.SSR) {
-        console.log("----- has SSR defined");
-    }
+if(import.meta.env.SSR) {
+    console.log("----- has SSR defined");
+}
 
+export default component$(() => {
     const count = useSignal(0);
 
     useTask$(({ track}) => {
