@@ -14,10 +14,10 @@
     "@astrojs/node": "^8.0.0",
     "@astrojs/react": "^3.0.9",
     "@builder.io/qwik": "^1.4.0",
-    "@qwikdev/astro": "^0.4.4",
+    "@qwikdev/astro": "^0.4.8",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
-    "astro": "^4.2.1",
+    "astro": "^4.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
